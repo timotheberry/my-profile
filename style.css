@@ -1,0 +1,111 @@
+/*Colors and fonts */
+ 
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+body {
+    background: #F7FCF9;
+    color:  #394363;
+    font-family: 'Roboto', serif;
+    font-size: 19px;
+    font-weight: lighter;
+}
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;;
+}
+
+h1 {
+    color:  #394363;
+    font-size: 30px;
+    font-weight: 850;
+
+}
+h2 {
+    color:  #D17A08;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #C76E02;
+    font-size: 15;
+    font-weight: 500;
+}
+
+a:hover {
+    color:  darkgrey;
+}
+
+
+
+.container {
+    width:  780px;
+    margin:  45px auto;
+}
+
+@media (max-width:  760px) {
+    .container{
+        width: 600px;
+    }
+}
+
+@media (max-width:  500px) {
+    .container{
+        width: 400px;
+    }
+}
+
+.card-white {
+    background-color:  white;
+    padding:  45px;
+    box-shadow: 0px 12px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin: 30px 0px;
+    text-align: center;
+}
+
+.img-circle {
+    border-radius: 45%;
+}
+
+.btn-blue {
+    background-color: #EB9202;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 5px;
+}
+
+.btn-blue: hover {
+    background-color: white;
+    color: black;
+}
+
+.list-inline{
+    list-style: none;
+    padding-left: 0px;
+}
+
+
+.list-inline li {
+    display: inline;
+    padding: 14px;
+}
+
+.list-inline i {
+    font-size: 60px;
+    color: rgb(230, 230, 230);
+}
+
+.list-inline i:hover {
+    color: black;
+}
+
+#introduction p {
+    margin-bottom: 50px;
+}
